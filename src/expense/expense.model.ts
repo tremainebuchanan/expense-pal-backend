@@ -5,8 +5,8 @@ export interface Expense{
     status: ExpenseStatus
 }
 
-enum ExpenseStatus{
+export enum ExpenseStatus{
     PAID = 'PAID',
     PENDING = 'PENDING',
-    PAST_DUE = 'PAST DUE'
+    PAST_DUE = 'PAST_DUE'
 }
